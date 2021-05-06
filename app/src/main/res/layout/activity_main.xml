@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6FBF5">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encabezadoActivity1"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:fontFamily="casual"
+            android:textColor="#B11227"
+            android:background="#F5EBEC"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/android"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView1"
+            android:textSize="18dp"
+            android:fontFamily="casual"
+            android:textColor="#1A6207"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText1"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:fontFamily="casual"
+            android:id="@+id/ediText1"
+            android:textColor="#31AD18"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView2"
+            android:textSize="18dp"
+            android:fontFamily="casual"
+            android:textColor="#1A6207"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText2"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:fontFamily="casual"
+            android:id="@+id/ediText2"
+            android:textColor="#31AD18"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView3"
+            android:textSize="18dp"
+            android:fontFamily="casual"
+            android:textColor="#1A6207"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText3"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:fontFamily="casual"
+            android:id="@+id/ediText3"
+            android:textColor="#31AD18"
+            android:layout_margin="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button1"
+            android:textColor="#46FF00"
+            android:fontFamily="casual"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button2"
+            android:textAlignment="center"
+            android:textColor="#46FF00"
+            android:fontFamily="casual"
+            android:textSize="20dp" />
+
+
+</LinearLayout>
